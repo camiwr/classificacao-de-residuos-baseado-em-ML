@@ -41,7 +41,6 @@ O projeto consiste em um aplicativo móvel para Android que utiliza Machine Lear
 ### Banco de Dados e Armazenamento
 
 - **Banco de Dados Utilizado:** O aplicativo utilizará o **Firebase Firestore**, que é um banco de dados NoSQL fornecido pelo Google. Ele permite o armazenamento e a sincronização de dados em tempo real e é ideal para aplicativos móveis.
-- **Plano Gratuito:** O Firebase oferece um plano gratuito (Spark Plan) com limites de uso diário que são suficientes para projetos em fase de desenvolvimento ou aplicativos com uma base de usuários pequena.
 - **O que será armazenado:**
   - Imagens carregadas pelos usuários
   - Resultados de classificações
@@ -62,7 +61,6 @@ O projeto consiste em um aplicativo móvel para Android que utiliza Machine Lear
 ### Hospedagem e Manutenção
 
 - **Publicação na Google Play Store:** O aplicativo será publicado na **Google Play Store** para facilitar o acesso dos usuários. Será submetido para aprovação e disponibilizado para download diretamente pela loja oficial do Android.
-- **Outras Plataformas:** A possibilidade de distribuição em outras lojas de aplicativos Android, como **Amazon Appstore** ou **Huawei AppGallery**, também pode ser considerada no futuro.
 - **Back-end e API:** O back-end e a API serão hospedados em serviços de cloud como **Firebase Hosting**, **Google Cloud Platform**, ou **AWS**, garantindo que os serviços de processamento de imagens e classificação estejam disponíveis 24/7 para os usuários.
 
 ### Segurança e Privacidade
