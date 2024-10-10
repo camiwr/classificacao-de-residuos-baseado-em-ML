@@ -48,9 +48,22 @@ O projeto consiste em um aplicativo móvel para Android que utiliza Machine Lear
 
 ### Desenvolvimento do Modelo de Machine Learning
 
-- **Arquitetura:** Redes Neurais Convolucionais (CNNs) para classificação de imagens.
-- **Ferramentas:** TensorFlow, Keras, ou PyTorch.
-- **Avaliação do Modelo:** Avaliação com métricas como acurácia, precisão, recall, e F1-score.
+O modelo de machine learning do projeto é baseado em **redes neurais convolucionais (CNNs)**, que são amplamente utilizadas para a classificação de imagens. No caso deste projeto, as CNNs são usadas para identificar e classificar resíduos recicláveis, como plástico, vidro, papel e metal, a partir das imagens fornecidas pelos usuários.
+
+#### [Link para o código no Google Colab](https://colab.research.google.com/drive/1bHeq_2f9EdJ84O1rrmA01jIct_wj5jhA?usp=sharing)
+O desenvolvimento e o treinamento do modelo podem ser acessados através do link: [Google Colab - Classificação de Resíduos](https://colab.research.google.com/drive/1bHeq_2f9EdJ84O1rrmA01jIct_wj5jhA?usp=sharing).
+
+Este notebook do Colab contém as seguintes etapas principais:
+
+1. **Pré-processamento dos Dados**: As imagens de resíduos são redimensionadas e normalizadas para garantir que estejam no formato adequado para serem processadas pelo modelo. Técnicas como aumento de dados (_data augmentation_) podem ser aplicadas para expandir o dataset de treinamento.
+
+2. **Arquitetura da Rede Neural Convolucional**: A rede CNN é construída utilizando frameworks como TensorFlow e Keras. Ela consiste em várias camadas convolucionais seguidas de camadas de _pooling_ e camadas totalmente conectadas. Cada camada extrai características importantes da imagem para ajudar na classificação.
+
+3. **Treinamento do Modelo**: O modelo é treinado utilizando um conjunto de dados previamente rotulado, com imagens de diferentes categorias de resíduos. Durante o treinamento, o modelo aprende a reconhecer padrões visuais associados a cada tipo de material.
+
+4. **Avaliação e Métricas**: O desempenho do modelo é avaliado com métricas como **acurácia**, **precisão**, **recall** e **F1-score**, que fornecem uma visão detalhada sobre a eficiência do modelo em classificar corretamente os resíduos.
+
+O Google Colab é uma ferramenta ideal para este tipo de trabalho, pois permite o uso de **GPUs** para acelerar o treinamento do modelo e facilita a colaboração entre desenvolvedores.
 
 ### Funcionalidades do Back-end
 
